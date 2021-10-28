@@ -5,73 +5,114 @@
     <title>HTML</title>
     <style>
       h1 {
-        font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        color: #809BCE;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+        color: #ff79c6;
+        text-align: center;
       }
       h2 {
-        background-color: #95B8D1;
-        color: palevioletred;
+        background-color: #44475a;
+        color: #ff79c6;
+        text-align: left;
+        padding: 10px 10px;
+        line-height: 30px;
+        text-align: center;
       }
       h3 {
-        background-color: #809BCE;
-        color: white;
+        background-color: #44475a;
+        color: #ff79c6;
         font-weight: bold;
-        line-height: 40px;
+        line-height: 30px;
         text-align: center;
       }
       ul {
         line-height: 40px;
+        color: white;
+        text-align: left;
       }
 
       body {
         font-family: monospace;
-        background-color: #D6EADF;
+        font-size: 14px;
+        background-color: #282a36;
       }
-
-      .item1 {
-        font-size: 30px;
-        color: #E0607E;
-      }
-      .item2 {
-        font-size: 30px;
-        color: #E0607E;
-      }
-      .item3 {
-        font-size: 30px;
-        color: mediumseagreen;;
-      }
-      .item4 {
-        font-size: 25px;
-        color: #F18F01;
-      }     
-      .item5 {
-        font-size: 20px;
-        color:royalblue
-      }
-      .item6 {
+      .about {
         font-size: 15px;
-        color:rebeccapurple
-  
+        color: #8be9fd;
+      }
+      .indice {
+        width: 500px;
+        background-color: #8be9fd;
+        color: #ff79c6;
+        font-weight: 800;
+        text-decoration: none;
+        border-radius: 50px;
+        text-align: center;
+        line-height: 50px;
+        display: block;
+        margin-bottom: 10px;
+        font-size: 18px;
+      }
+      .cor1 {
+        font-size: 25px;
+        color: #f1fa8c;
+      }
 
+      .cor {
+        font-size: 20px;
+        color: #50fa7b;
+      }
+
+      .picture {
+        border-radius: 100px;
+        width: 200px;
+      }
+      .button1 {
+        width: 200px;
+        background-color: #8be9fd;
+        color: #44475a;
+        font-size: 18px;
+        font-weight: 800;
+        text-decoration: none;
+        border-radius: 50px;
+        text-align: center;
+        line-height: 50px;
+        display: block;
+        margin: auto;
+      }
+      .button2 {
+        width: 500px;
+        background-color: #ffb86c;
+        color: #ff5555;
+        font-weight: 800;
+        text-decoration: none;
+        border-radius: 50px;
+        text-align: center;
+        line-height: 50px;
+        display: block;
+        margin: 20px 20px 20px 400px;
+        font-size: 18px;
+      }
     </style>
   </head>
   <body>
     <h1>Julia Lana Patto dos Santos</h1>
-    <img src="julia.jpeg" alt="Foto de Perfil Atualizada" width="150px" />
-    <hr />
-    <h2> Índice</h2>
-    <ol>
-      <li><a href="#link1">Sobre mim</a></li>
-      <li><a href="#link2">Lista de Habilidades</a></li>
-      <li><a href="#link3">Foto</a></li>
-      <li><a href="#link4">Site</a></li>
+    <img class="picture" src="julia.jpeg" alt="Foto de Perfil Atualizada" />
+
+    <h2>Índice</h2>
+
+    <ol class="cor1">
+      <li><a class="indice" href="#link1">Sobre mim</a></li>
+      <li><a class="indice" href="#link2">Lista de Habilidades</a></li>
+      <li><a class="indice" href="#link3">Foto</a></li>
+      <li><a class="indice" href="#link4">Site</a></li>
     </ol>
-    <hr />
-    <h3 id="link1" Informações sobre mim:</h3>
+
+    <h2 id="link1">Informações sobre mim</h2>
     <ul>
       <li>Estudante de desenvolvimento web na Trybe</li>
       <li><em>São José dos Campos, São Paulo, Brasil</em></li>
-      <p>
+      <p class="about">
         Nutricionista formada pela Universidade Federal de Lavras (UFLA),
         pós-graduada em Nutrição Clínica e também em Nutrição Esportiva que se
         apaixonou por programação. Estou em transição de carreira e atualmente
@@ -81,42 +122,52 @@
       </p>
     </ul>
 
-    <h2 id="link2">Habilidades de orgulho:</h2>
+    <h2 id="link2">Habilidades de orgulho</h2>
     <ul>
-      <li class="item1"><strong>Aprender a aprender</strong></li>
+      <li class="cor1"><strong>Aprender a aprender</strong></li>
       "Atitude de aprender os procedimentos necessários ao aprendizado de
       qualquer conteúdo"
-      <li class="item2"><strong>Empatia</strong></li>
+      <li class="cor1"><strong>Empatia</strong></li>
       "Atitude de compartilhar, e compreender os estados emocionais de outros"
     </ul>
 
     <h2>Lista de outras habilidades</h2>
     <ul>
-      <li class="item3">Criatividade</li>
+      <li class="cor">Criatividade</li>
       "É o processo de mudança, de desenvolvimento, de evolução na organização
       da vida subjetiva" - Ghiselin
-      <li class="item4">Coragem</li>
+      <li class="cor">Coragem</li>
       "A palavra coragem vem do latim e significa agir com o coração. Ter
       coragem é agir de acordo com o que se sente verdadeiramente"
-      <li class="item5">Comunicação</li>
+      <li class="cor">Comunicação</li>
       "Troca de informação é a maior definição do que é comunicar-se; isso
       inclui ideias, conceitos abstratos, comportamentos e conteúdos escritos.
       Em outras palavras, comunicação é levar informação de um ponto a outro de
       diversos modos"
-      <li class="item6">Inteligência emocional</li>
+      <li class="cor">Inteligência emocional</li>
       "Capacidade do ser humano de lidar com as emoções"
     </ul>
-    <hr />
-    <h3 id="link3">Foto:</h3>
+
+    <h3 id="link3">Foto</h3>
     <a
+      class="button1"
       href="https://media-exp1.licdn.com/dms/image/C4E03AQEGGmLJ8aZu0Q/profile-displayphoto-shrink_800_800/0/1634152305343?e=1640822400&v=beta&t=-nUhhqv5wF1WXudxikGWCJtu_I-A75RRB7zBwnYxcBg"
       target="_blank"
       >Minha foto</a
     >
-    <hr />
-    <h3 id="link4">Indicação:</h3>
-    <a href="https://www.theminimalists.com/" target="_blank"
-      >Link para um blog que eu gosto</a
+    <h3 id="link4">Links</h3>
+    <a
+      class="button2"
+      href="https://www.linkedin.com/in/julialanapatto/"
+      target="blank"
     >
+      Link para meu linkedin
+    </a>
+    <a class="button2" href="https://github.com/julialanapatto" target="blank">
+      Link para meu Github
+    </a>
+    <a class="button2" href="https://www.theminimalists.com/" target="blank">
+      Link para um blog que eu gosto
+    </a>
   </body>
 </html>
