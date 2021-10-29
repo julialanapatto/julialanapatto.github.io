@@ -3,110 +3,21 @@
   <head>
     <meta charset="UTF-8" />
     <title>HTML</title>
-    <style>
-      h1 {
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-          Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-        color: #ff79c6;
-        text-align: center;
-      }
-      h2 {
-        background-color: #44475a;
-        color: #ff79c6;
-        text-align: left;
-        padding: 10px 10px;
-        line-height: 30px;
-        text-align: center;
-      }
-      h3 {
-        background-color: #44475a;
-        color: #ff79c6;
-        font-weight: bold;
-        line-height: 30px;
-        text-align: center;
-      }
-      ul {
-        line-height: 40px;
-        color: white;
-        text-align: left;
-      }
-
-      body {
-        font-family: monospace;
-        font-size: 14px;
-        background-color: #282a36;
-      }
-      .about {
-        font-size: 15px;
-        color: #8be9fd;
-      }
-      .indice {
-        width: 500px;
-        background-color: #8be9fd;
-        color: #ff79c6;
-        font-weight: 800;
-        text-decoration: none;
-        border-radius: 50px;
-        text-align: center;
-        line-height: 50px;
-        display: block;
-        margin-bottom: 10px;
-        font-size: 18px;
-      }
-      .cor1 {
-        font-size: 25px;
-        color: #f1fa8c;
-      }
-
-      .cor {
-        font-size: 20px;
-        color: #50fa7b;
-      }
-
-      .picture {
-        border-radius: 100px;
-        width: 200px;
-      }
-      .button1 {
-        width: 200px;
-        background-color: #8be9fd;
-        color: #44475a;
-        font-size: 18px;
-        font-weight: 800;
-        text-decoration: none;
-        border-radius: 50px;
-        text-align: center;
-        line-height: 50px;
-        display: block;
-        margin: auto;
-      }
-      .button2 {
-        width: 500px;
-        background-color: #ffb86c;
-        color: #ff5555;
-        font-weight: 800;
-        text-decoration: none;
-        border-radius: 50px;
-        text-align: center;
-        line-height: 50px;
-        display: block;
-        margin: 20px 20px 20px 400px;
-        font-size: 18px;
-      }
-    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@200&family=Zen+Kaku+Gothic+Antique:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"></link>
   </head>
   <body>
     <h1>Julia Lana Patto dos Santos</h1>
+    <h2 >Índice</h2>
     <img class="picture" src="julia.jpeg" alt="Foto de Perfil Atualizada" />
-
-    <h2>Índice</h2>
-
-    <ol class="cor1">
-      <li><a class="indice" href="#link1">Sobre mim</a></li>
-      <li><a class="indice" href="#link2">Lista de Habilidades</a></li>
-      <li><a class="indice" href="#link3">Foto</a></li>
-      <li><a class="indice" href="#link4">Site</a></li>
-    </ol>
+    <p>
+      <a class="indice" href="#link1">Sobre mim</a>
+      <a class="indice" href="#link2">Lista de Habilidades</a>
+      <a class="indice" href="#link3">Foto</a>
+      <a class="indice" href="#link4">Site</a>
+    </p>
 
     <h2 id="link1">Informações sobre mim</h2>
     <ul>
@@ -148,26 +59,25 @@
       "Capacidade do ser humano de lidar com as emoções"
     </ul>
 
-    <h3 id="link3">Foto</h3>
+    <h2 id="link3">Foto</h2>
     <a
       class="button1"
       href="https://media-exp1.licdn.com/dms/image/C4E03AQEGGmLJ8aZu0Q/profile-displayphoto-shrink_800_800/0/1634152305343?e=1640822400&v=beta&t=-nUhhqv5wF1WXudxikGWCJtu_I-A75RRB7zBwnYxcBg"
       target="_blank"
       >Minha foto</a
     >
-    <h3 id="link4">Links</h3>
+    <h2 id="link4">Links</h2>
     <a
       class="button2"
       href="https://www.linkedin.com/in/julialanapatto/"
-      target="blank"
-    >
-      Link para meu linkedin
+      target="blank">
+      linkedin
     </a>
     <a class="button2" href="https://github.com/julialanapatto" target="blank">
-      Link para meu Github
+      Github
     </a>
     <a class="button2" href="https://www.theminimalists.com/" target="blank">
-      Link para um blog que eu gosto
+      Um blog que eu gosto
     </a>
   </body>
 </html>
