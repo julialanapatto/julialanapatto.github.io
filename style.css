@@ -1,7 +1,7 @@
 h1 {
     font-family: 'Poppins', sans-serif;
     color: #ff79c6;
-    text-align: left;
+    text-align: center;
     margin-left: 30px;
   }
   h2 {
@@ -17,6 +17,9 @@ h1 {
     line-height: 40px;
     color: white;
     text-align: left;
+  }
+  li {
+    list-style: none;
   }
   body {
     font-family: 'Poppins', sans-serif;
@@ -38,7 +41,7 @@ h1 {
     line-height: 50px;
     display: block;
     margin-bottom: 10px;
-    margin-left: 250px;
+    margin-left: 280px;
     font-size: 18px;
   }
   .cor {
@@ -50,11 +53,13 @@ h1 {
     color: #ffb86c;
   }
   .picture {
-    border-radius: 100px;
+    border-radius: 150px;
     width: 210px;
     float: left;
     margin: auto;
     margin-left: 20px;
+    padding: 10px;
+    background-color:  #ff79c6;
 
   }
   .button1 {
